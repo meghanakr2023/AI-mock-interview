@@ -26,9 +26,7 @@ function App() {
           element={
             <ProtectedRoute>
               <Navbar />
-              <div style={{ padding: '2rem', textAlign: 'center' }}>
-                <h2>Welcome! Build the HomePage to get started.</h2>
-              </div>
+              <HomePage />
             </ProtectedRoute>
           }
         />
